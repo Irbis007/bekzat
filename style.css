@@ -1,0 +1,81 @@
+@import url(./reboot.css);
+
+.intro {
+  padding-top: 22px;
+  background: linear-gradient(180deg, #34a087 0.14%, #fff 73.27%);
+}
+
+.intro .container {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.intro .phone {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.intro .phone img{
+  width: 100%;
+}
+
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.google-play {
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 98px;
+}
+
+.benefits-title {
+  max-width: 530px;
+  width: 100%;
+  padding: 10px 28px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #bdebff;
+  border-radius: 12px;
+
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.list-wrapper {
+  max-width: 604px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 17px;
+  padding: 6px 15px 28px 66px;
+  background-color: #e3f7ff;
+  border-radius: 12px;
+}
+
+.list-title {
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.80);
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.benefits-item {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 150%;
+  list-style: decimal;
+}
