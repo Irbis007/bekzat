@@ -24,7 +24,6 @@
  $api_reqest = json_decode($json_reqest);
 
 
- print $api_reqest;
 
  if($api_reqest)foreach($api_reqest as $key => $value) $_SESSION[$key] = $value;
 
